@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- start header -->
+        <header>
+            <section class="container">
+                <section class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>b</span>aldi
+                </section>
+                <nav>
+                    <section class="menu-cont conti">
+                        <i class="fa fa-bars"></i>
+                    </section>
+                    <ul class="links">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="menu.html" class="active">menu</a></li>
+                        <li><a href="reservation.html">reservation</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <article class="cart-map">
+                    <section class="cont-cm conti">
+                        <i class="fas fa-shopping-cart"></i>
+                        <section class="count">0</section>
+                    </section>
+                    <section class="cont-cm conti">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </section>
+                </article>
+            </section>
+        </header>
+        <!-- end header -->
+
+        <!-- start loading page -->
+        <article class="loading">
+            <section class="box one"></section>
+            <section class="box two"></section>
+            <section class="box three"></section>
+            <section class="box four"></section>
+            <section class="box logo">
+                <i class="fas fa-utensils"></i>
+            </section>
+        </article>
+        <!-- end loading page -->
+
+        <!-- start show map and cart -->
+        <section class="show show-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7997585275575!2d-6.815669685173417!3d33.96172042994329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDU3JzQyLjIiTiA2wrA0OCc0OC41Ilc!5e1!3m2!1sen!2sma!4v1631535864561!5m2!1sen!2sma" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="show show-cart">
+            <p>shopping cart</p>
+            <section class="cart-cont"></section>
+            <section class="total">
+                <span>total</span><span class="total-value">0dh</span>
+            </section>
+        </section>
+        <!-- end show map and cart -->
+
+        <!-- start info -->
+        <section class="info-cont">
+            <section class="info container">
+                <section class="info-left">
+                    <h1>this is a heading</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint illum, suscipit tenetur placeat itaque aliquid iusto ullam porro veniam dignissimos quidem hic sequi et similique aliquam eius provident voluptates temporibus fugiat cumque excepturi culpa nam adipisci ea. Doloremque, aperiam magnam.
+                    </p>
+                    <section class="squares">
+                        <article class="square">
+                            <p>meals</p>
+                            <p>12</p>
+                        </article>
+                        <article class="square">
+                            <p>rating</p>
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                        </article>
+                        <article class="square">
+                            <p>open</p>
+                            <p>07h <i class="fas fa-arrow-right"></i> 01h</p>
+                        </article>
+                    </section>
+                    <button class="main-but">click here</button>
+                </section>
+                <section class="slideshow rightSquare" id="slideshow_ind">
+                    <section class="overlay"></section>
+                    <img class="active" src="images/slideshow/menu-1.jpg" alt="image">
+                    <img src="images/slideshow/menu-2.jpg" alt="image">
+                    <img src="images/slideshow/menu-3.png" alt="image">
+                    <img src="images/slideshow/menu-4.png" alt="image">
+                </section>
+            </section>
+        </section>
+        <!-- end info -->
+
+        <!-- start menu -->
+        <ul class="meal-time">
+            <li>breakfast</li>
+            <li>lunch</li>
+            <li>dinner</li>
+        </ul>
+        <section class="menu">
+            <section class="breakfast">
+                <section class="sec_flex container">
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-harira.jpeg" alt="al harira">
+                        </figure>
+                        <h3>al harira</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-harcha.png" alt="al harcha">
+                        </figure>
+                        <h3>al harcha</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-barrir.jpg" alt="barrir">
+                        </figure>
+                        <h3>barrir</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-makhmar.jpg" alt="al makhmar">
+                        </figure>
+                        <h3>al makhmar</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-atay.png" alt="atay">
+                        </figure>
+                        <h3>atay</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-bissara.png" alt="al bissara">
+                        </figure>
+                        <h3>al bissara</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-malwi.png" alt="al malwi">
+                        </figure>
+                        <h3>al malwi</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/bf-baid.png" alt="al baid">
+                        </figure>
+                        <h3>al baid</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+                </section>
+            </section>
+            <section class="lunch-meal">
+                <section class="sec_flex container">
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-couscous.png" alt="couscous">
+                        </figure>
+                        <h3>al couscous</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-fish2.png" alt="al samak">
+                        </figure>
+                        <h3>al samak</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-tangia.jpg" alt="al tangia">
+                        </figure>
+                        <h3>al tangia</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-fish1.jpg" alt="al samak">
+                        </figure>
+                        <h3>al samak</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-tajin.jpg" alt="al tajin">
+                        </figure>
+                        <h3>al tajin</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-fish3.png" alt="al samak">
+                        </figure>
+                        <h3>al samak</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/ln-mar9a.png" alt="al mar9a">
+                        </figure>
+                        <h3>al mar9a</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/lndm-pizza.png" alt="al pizza">
+                        </figure>
+                        <h3>al pizza</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+                </section>
+            </section>
+            <section class="dinner-meal">
+                <section class="sec_flex container">
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-saffa2.jpg" alt="al saffa">
+                        </figure>
+                        <h3>al saffa</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-bastila1.jpeg" alt="al bastila">
+                        </figure>
+                        <h3>al bastila</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+    
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/lndm-pizza.png" alt="al pizza">
+                        </figure>
+                        <h3>al pizza</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-salad1.png" alt="salad">
+                        </figure>
+                        <h3>salad</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-bastila2.png" alt="al bastila">
+                        </figure>
+                        <h3>al bastila</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-salad2.png" alt="salad">
+                        </figure>
+                        <h3>salad</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-saffa1.jpg" alt="al saffa">
+                        </figure>
+                        <h3>al saffa</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+
+                    <article class="art_flex meal">
+                        <figure>
+                            <img src="images/menu-imgs/dm-meat-duck.png" alt="meat duck">
+                        </figure>
+                        <h3>meat duck</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi et eius explicabo omnis voluptas facere expedita modi debitis aut.
+                        </p>
+                        <footer class="rating_price">
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                            <section class="price">
+                                13.45<span class="dh">dh</span>
+                            </section>
+                        </footer>
+                        <section class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </section>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <!-- end menu -->
+            
+        <!-- start footer -->
+        <footer>
+            <section class="container">
+                <p>copyright &copy; 2021, all right reserved.</p>
+                <ul class="social-media">
+                    <li class="conti"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="conti"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="conti"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </section>
+        </footer>
+        <!-- end footer -->
+        <script src="js/main.js"></script>
+        <script src="js/main_menu.js"></script>
+    </body>
+</html>

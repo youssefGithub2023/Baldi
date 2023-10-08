@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>reservation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- start header -->
+        <header>
+            <section class="container">
+                <section class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>b</span>aldi
+                </section>
+                <nav>
+                    <section class="menu-cont conti">
+                        <i class="fa fa-bars"></i>
+                    </section>
+                    <ul class="links">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="reservation.html" class="active">reservation</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <article class="cart-map">
+                    <section class="cont-cm conti">
+                        <i class="fas fa-shopping-cart"></i>
+                        <section class="count">0</section>
+                    </section>
+                    <section class="cont-cm conti">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </section>
+                </article>
+            </section>
+        </header>
+        <!-- end header -->
+
+        <!-- start loading page -->
+        <article class="loading">
+            <section class="box one"></section>
+            <section class="box two"></section>
+            <section class="box three"></section>
+            <section class="box four"></section>
+            <section class="box logo">
+                <i class="fas fa-utensils"></i>
+            </section>
+        </article>
+        <!-- end loading page -->
+
+        <!-- start show map and cart -->
+        <section class="show show-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7997585275575!2d-6.815669685173417!3d33.96172042994329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDU3JzQyLjIiTiA2wrA0OCc0OC41Ilc!5e1!3m2!1sen!2sma!4v1631535864561!5m2!1sen!2sma" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="show show-cart">
+            <p>shopping cart</p>
+            <section class="cart-cont"></section>
+            <section class="total">
+                <span>total</span><span class="total-value">0dh</span>
+            </section>
+        </section>
+        <!-- end show map and cart -->
+
+        <!-- start info -->
+        <section class="info-cont">
+            <section class="info container">
+                <section class="info-left">
+                    <h1>this is a heading</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint illum, suscipit tenetur placeat itaque aliquid iusto ullam porro veniam dignissimos quidem hic sequi et similique aliquam eius provident voluptates temporibus fugiat cumque excepturi culpa nam adipisci ea. Doloremque, aperiam magnam.
+                    </p>
+                    <section class="squares">
+                        <article class="square">
+                            <p>meals</p>
+                            <p>12</p>
+                        </article>
+                        <article class="square">
+                            <p>rating</p>
+                            <section class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </section>
+                        </article>
+                        <article class="square">
+                            <p>open</p>
+                            <p>07h <i class="fas fa-arrow-right"></i> 01h</p>
+                        </article>
+                    </section>
+                    <button class="main-but">click here</button>
+                </section>
+                <section class="slideshow rightSquare" id="slideshow_ind">
+                    <section class="overlay"></section>
+                    <img class="active" src="images/slideshow/rese-1.png" alt="image">
+                    <img src="images/slideshow/rese-2.png" alt="image">
+                    <img src="images/slideshow/rese-3.jpg" alt="image">
+                </section>
+            </section>
+        </section>
+        <!-- end info -->
+        
+        <section class="book-table">
+            <section class="container">
+                <h2>make reservation</h2>
+                <form>
+                    <input class="main-f" type="text" placeholder="full name" required>
+                    <input class="main-f" type="number" placeholder="people" required>
+                    <input class="main-f" type="number" placeholder="phone number" required>
+                    <input class="main-f" type="email" placeholder="your email">
+                    <input class="main-f" type="date" required>
+                    <input class="main-f" type="time" placeholder="time" required>
+                    <select class="main-f">
+                        <option disabled selected>-- place --</option>
+                        <option>outside the resturant</option>
+                        <option>inside the resturant</option>
+                    </select>
+                    <button class="main-but">book</button>
+                </form>
+            </section>
+        </section>
+
+        <!-- start footer -->
+        <footer>
+            <section class="container">
+                <p>copyright &copy; 2021, all right reserved.</p>
+                <ul class="social-media">
+                    <li class="conti"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="conti"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="conti"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </section>
+        </footer>
+        <!-- end footer -->
+        <script src="js/main.js"></script>
+        <script src="js/main_reservation.js"></script>
+    </body>
+</html>
